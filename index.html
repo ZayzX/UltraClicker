@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ultra Clicker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Ultra Clicker</h1>
+    <h2>Score: <span id="score">0</span></h2>
+    <h3>Per Click: <span id="per-click">1</span> | Passive Income: <span id="per-second">0</span>/s</h3>
+    <button id="click-button">Click Me!</button>
+
+    <!-- Champ de code bonus -->
+    <div id="bonus-code-container">
+      <input type="text" id="bonus-code" placeholder="Enter bonus code" />
+      <button id="apply-bonus-code">Apply Code</button>
+      <p id="code-status"></p>
+    </div>
+
+    <!-- Boutons pour ouvrir les modales sous le bouton Click Me -->
+    <div id="modal-buttons">
+      <button id="open-upgrades" class="open-modal">Upgrades</button>
+      <button id="open-passive" class="open-modal">Passive Upgrades</button>
+    </div>
+
+    <!-- Modale pour les améliorations -->
+    <div id="upgrade-modal" class="modal">
+      <div class="modal-content">
+        <span class="close" id="close-upgrades">&times;</span>
+        <h3>Upgrades</h3>
+        <div id="upgrades"></div>
+      </div>
+    </div>
+
+    <!-- Modale pour les améliorations passives -->
+    <div id="passive-modal" class="modal">
+      <div class="modal-content">
+        <span class="close" id="close-passive">&times;</span>
+        <h3>Passive Upgrades</h3>
+        <div id="passive-upgrades"></div>
+      </div>
+    </div>
+
+    <!-- Rebirth Button -->
+    <button id="rebirth-button">Rebirth (Cost: <span id="rebirth-cost">1000</span>)</button>
+    <p>Rebirth gives you a multiplier to your clicks!</p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
