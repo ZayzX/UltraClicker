@@ -9,6 +9,7 @@ const bonusCodes = {
   "DOUBLECLICK": { effect: "click", value: 5, message: "Doubles your per-click bonus!" },
   "PASSIVEBOOST": { effect: "passive", value: 10, message: "Increases passive income!" },
   "INSTANTRESTART": { effect: "rebirth", value: 1, message: "Instant Rebirth!" },
+  "OPCLICK": { effect: "click", value: 100000, message: "your gain OP" },
   // Vous pouvez ajouter autant de codes bonus que vous voulez ici
 };
 
