@@ -10,7 +10,7 @@ const bonusCodes = {
   "PASSIVEBOOST": { effect: "passive", value: 10, message: "Increases passive income!" },
   "INSTANTRESTART": { effect: "rebirth", value: 1, message: "Instant Rebirth!" },
   "OPCLICK": { effect: "click", value: 100000, message: "your gain OP" },
-  "Z33": {effect: "click", value: " 1000000", message: "tu gagne 1M de click"},
+  "Z33": { effect: "click", value: 1000000, message: "tu gagne 1M de click" },
   // Vous pouvez ajouter autant de codes bonus que vous voulez ici
 };
 
